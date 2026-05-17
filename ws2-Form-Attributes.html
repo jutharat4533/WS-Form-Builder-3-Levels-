@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Attributes</title>
+  </head>
+  <body>
+    <form id="profile" action=""></form>
+    <h1>ข้อมูลผู้เรียน</h1>
+    <label for="username">ชื่อผู้ใช้</label>
+    <input
+      id="usernsme"
+      name="username"
+      type="text"
+      placeholder="เช่น sara_dev"
+    />
+    <label for="track">สายการเรียน</label>
+    <select name="track" id="track">
+      <option value="">เลือกสายการเรียน</option>
+      <option value="frontend">Frontend</option>
+      <option value="backend">Backend</option>
+      <option value="fullstack">Fullstack</option>
+    </select>
+    <br />
+    <br />
+    <label for="about">แนะนำตัว</label>
+    <textarea
+      name="about"
+      id="about"
+      placeholder="บอกเป้าหมายการเรียนของคุณ"
+    ></textarea>
+    <br />
+    <br />
+    <button>บันทึกโปรไฟล์</button>
+    <br />
+    <br />
+    <a href="ws3-Grouped-Form.html">next</a>
+  </body>
+</html>
